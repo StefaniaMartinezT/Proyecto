@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+    
+}
+
+body{
+	overflow-x: hidden;
+ }
+
+
+ 
+
+.navbar-nave{
+  list-style:none;	
+
+}
+
+.nav-i{
+  float:left;
+  padding:20px;
+  position:relative;
+  left:50%;
+}
+
+.nav-rut{
+  text-decoration:none;  
+  display: block;
+} 
+
+
+
+
+
+
