@@ -8,25 +8,11 @@ body{
 	overflow-x: hidden;
  }
 
-
+ .navbar-nav{
+   left: 50%;
+ }
  
 
-.navbar-nave{
-  list-style:none;	
-
-}
-
-.nav-i{
-  float:left;
-  padding:20px;
-  position:relative;
-  left:50%;
-}
-
-.nav-rut{
-  text-decoration:none;  
-  display: block;
-} 
 
 
 
