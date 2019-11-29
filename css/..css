@@ -1,0 +1,30 @@
+#efectoescribir{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    right: 2000px;
+    display: table;
+    background: #fff;
+}
+
+#efectoescribir2{
+    position: relative;
+    float: left;
+}
+
+#efectoescribir2 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #fff;
+    border-left: 1px solid #000;
+    animation: maquina 5s infinite alternate steps(28);
+}
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}

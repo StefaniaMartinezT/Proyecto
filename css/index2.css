@@ -16,7 +16,7 @@ body{
     box-shadow: 0px 0px 3px #848484;
 }
 
-.user-img{
+.logingeneral{
     margin-top: -50px;
     margin-bottom: 35px;
 }
@@ -25,11 +25,14 @@ body{
     height: 42px;
     font-size: 18px;
     border: 0;
-    padding-left: 54px;
+    padding-left: 70px;
     border-radius: 5px;
 }
 
-.loginuser2{
-    position: relative;
-    left: 330px;
+.form-group2 input{
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+    padding-left: 91px;
+    border-radius: 5px;
 }
