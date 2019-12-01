@@ -10,10 +10,10 @@ body{
 }
 
 .modal-content{
-    background-color: #BCB6BD; 
+    background-color:#97ccd3; 
     opacity: .95;
     padding: 0 20px;
-    box-shadow: 0px 0px 3px #848484;
+    box-shadow: 0px 0px 3px #97ccd3
 }
 
 .user-img{
