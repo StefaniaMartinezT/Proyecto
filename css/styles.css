@@ -1,6 +1,7 @@
 body{
     background-color: seashell;
     background-size: cover;     
+    overflow-x:hidden;
 }
 
 .main-section{
