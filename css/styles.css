@@ -57,6 +57,7 @@ body{
     left: 330px;
 }
 
+<<<<<<< HEAD
 .general{
     position: relative;
     left: 150px;
@@ -68,3 +69,13 @@ body{
     
 }
 }
+=======
+.imgcolegio{
+    width: 350px;
+    height: 250px;
+}
+
+.detallcarousel{
+    width: 600px;
+}
+>>>>>>> 7fc7571ef0da8f0606e5aedfc1d157482934a792
