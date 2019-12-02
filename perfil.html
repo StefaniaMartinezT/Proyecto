@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="fonts/style.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>NearCollege</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+                <a class="navbar-brand" href="index.html"> 
+                    <img  id= "img1" src="images/logo2.1.png"class="rounded-top">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active" >
+                        <a class="nav-link" href="index.html"><span class="icon-home" style="color:#fff"></span> Home</a>
+                    </li>
+                    <li class="nav-item active" >
+                      <a class="nav-link" href="logingeneral.html?"><span class="icon-user"></span> Inicia Sesión</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#"><span class="icon-help-with-circle"></span>Ayuda</a>
+                    </li>  
+                  </ul>
+                </div>
+            </nav>
+    <div class="container">
+        <div class="row justify-content-center mt-3 pt-3 mb-3 pb-3">
+            <div class="col-md-12">
+                <h1 class="display-4 "><span class="icon-text-document" style="color:#17a2b8"></span> Actualizar Mis Datos</h1>
+                <hr class="bg-info">
+                    <form action="inicio.html" method="POST" >
+                        <div class="row form-group">
+                            <label for="nombre" class="col-form-label col-md-4"><span class="icon-users"></span>  Nombres:</label>
+                            <div class="col-md-8">
+                                <input type="text" name="nombre" value="Stefania" required id="nombre" class="form-control" placeholder="Nombre/s">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label for="apellido" class="col-form-label col-md-4"><span class="icon-users"></span>  Apellidos:</label>
+                            <div class="col-md-8">
+                                <input type="text" name="apellido" required value="Martinez Torres" id="apellido" class="form-control" placeholder="Apellido/s">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label for="usuario" class="col-form-label col-md-4"><span class="icon-users"></span>  Usuario:</label>
+                            <div class="col-md-8">
+                                <input type="text" name="usuario" readonly value="stefaniamt15" id="usuario" class="form-control" placeholder="Usuario">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label for="numcontacto" class="col-form-label col-md-4"><span class="icon-mobile"></span>  Número de Contacto:</label>
+                            <div class="col-md-8">
+                                <input type="number" name="numcontacto" required value="" id="numcontacto" class="form-control" placeholder="Número de Contacto">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="tipocedula" class="control-label"><span class="icon-v-card"></span>  Tipo de Cédula:</label>
+                            <select class="form-control" id="tipocedula">
+                                <option value="nacional" selected>Cédula de Ciudadanía</option>
+                                <option value="extranjeria">Cédula de extranjería</option>
+                            </select>                    
+                        </div>
+                        <div class="row form-group">
+                            <label for="documento" class="col-form-label col-md-4"><span class="icon-edit"></span>  Número de Documento:</label>
+                            <div class="col-md-8">
+                                <input type="number" name="documento" required value="1000565676" id="documento" class="form-control" placeholder="Número de Documento">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label for="nacimiento" class="col-form-label col-md-4"><span class="icon-calendar"></span>  Fecha de Nacimiento:</label>
+                            <div class="col-md-8">
+                                <input type="text" name="nacimiento" value="15/08/2001" id="nacimiento" class="form-control" placeholder="05/07/2001">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label for="email" class="col-form-label col-md-4"><span class="icon-mail"></span>  Email:</label>
+                            <div class="col-md-8">
+                                <input type="email" name="email" value="stefania15@gmail.com" required id="email" class="form-control" placeholder="email@example.com">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label for="contraseña" class="col-form-label col-md-4"><span class="icon-lock"></span>  Contraseña:</label>
+                            <div class="col-md-8">
+                                <input type="password" name="contraseña" value="123456" id="contraseña" class="form-control" placeholder="Contraseña">
+                            </div>
+                        </div>
+                
+                        <button type="submit" class="btn btn-outline-info"><i class="icon-arrow-with-circle-right"></i>  Actualizar </button>
+                    </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
