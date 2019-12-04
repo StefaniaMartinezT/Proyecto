@@ -10,53 +10,89 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-        <a class="navbar-brand" href="index.html"> 
-            <img  id= "img1" src="images/logo2.1.png"class="rounded-top">
-        </a>
+        <a class="navbar-brand" href="index.html">
+          <img  id= "img1" src="images/logo2.1.png" class="rounded-top">
+        </a> 
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active" >
+                <a class="nav-link" href="#"><span class="icon-user"></span> Hola Stefania </a>
+            </li>
+            <li class="nav-item active" >
+                <a class="nav-link" href="index.html"><span class="icon-home" style="color:#fff"></span> Home</a>
+            </li>
+            <li class="nav-item active" >
+                <a class="nav-link" href="index.html"><span class="icon-log-out" style="color:#fff"></span> Cerrar Sesión</a>
+            </li>
+            </ul>
         </div>
     </nav>
-    <div class="row">
-        <div class="modal-dialog text-center">
-            <div class="col-sm-12 main-section">
-                <div class="modal-content">
-                    <div class="col-12 logingeneral">
-                        <img src="images/addinsti.png">
-                    </div>
-                    <form class="col-md-12">
-                            <h4>Agregar Instituciones</h4>
-                        <a href="#" class="btn btn-outline-success mb-3"><i class="icon-plus"></i>  Agregar</a>
-                    </form>
+    <div class="container">
+        <div class="container">
+            <div class="row justify-content-center mt-3 pt-3 mb-3 pb-3">
+                <div class="col-md-12">
+                    <h1 class="display-4 text-lg-center"><span class="icon-bookmark" style="color:#28a745"></span> ¿Qué deseas realizar?</h1>
+                    <hr class="bg-success">        
                 </div>
             </div>
-        </div>
-        <div class="modal-dialog text-center">
-            <div class="col-sm-12 main-section">
-                <div class="modal-content">
-                    <div class="col-12 logingeneral">
-                        <img src="images/ver.png">
+            <div class="row">
+                <div class="modal-dialog text-center">
+                    <div class="col-sm-12 main-section">
+                        <div class="modal-content">
+                            <div class="col-12 logingeneral">
+                                <img src="images/addinsti.png">
+                            </div>
+                            <form class="col-md-12">
+                                <a href="agregarinsti.html">
+                                    <h4>Agregar Instituciones</h4>
+                                    <a href="#" class="btn btn-outline-success mb-3"><i class="icon-plus"></i>  Agregar</a>
+                                    <br>
+                                </a>     
+                            </form>
+                        </div>
                     </div>
-                    <form class="col-md-12">
-                        <h4>Ver Instituciones</h4>
-                        <a href="logininstitucion.html" class="btn btn-outline-success mb-3"><i class="icon-eye"></i>  Ver</a>
-                    </form>
                 </div>
-            </div>
-        </div>
-        <div class="modal-dialog text-center">
-            <div class="col-sm-12 main-section">
-                <div class="modal-content">
-                    <div class="col-12 logingeneral">
-                        <img src="images/delete.png">
+                <div class="modal-dialog text-center">
+                    <div class="col-sm-12 main-section">
+                        <div class="modal-content">
+                            <div class="col-12 logingeneral">
+                                <img src="images/ver.png">
+                            </div>
+                            <form class="col-md-12">
+                                <a href="verinstitu.html">
+                                    <h4>Ver Instituciones</h4>
+                                    <a href="logininstitucion.html" class="btn btn-outline-success mb-3"><i class="icon-eye"></i>  Ver</a>
+                                    <br>
+                                </a>               
+                            </form>
+                        </div>
                     </div>
-                    <form class="col-md-12">
-                            <h4>Eliminar Instituciones/Usuarios</h4>
-                        <a href="login.html" class="btn btn-outline-success mb-3"><i class="icon-remove-user"></i>  Eliminar</a>
-                    </form>
                 </div>
-            </div>
+                <div class="modal-dialog text-center">
+                    <div class="col-sm-12 main-section">
+                        <div class="modal-content">
+                            <div class="col-12 logingeneral">
+                                <img src="images/delete.png">
+                            </div>
+                            <form class="col-md-12">
+                                <a href="eliminarinsti.html">
+                                    <h4>Eliminar Instituciones</h4>
+                                    <a href="login.html" class="btn btn-outline-success mb-3"><i class="icon-remove-user"></i>  Eliminar</a>
+                                    <br>
+                                </a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>       
         </div>
     </div>
-</body>   
+</body>
+<footer class="page-footer font-small piepagina">
+    <div class="footer-copyright text-center py-3">© 2019 Copyright: NearCollege0405@gmail.com
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
